@@ -119,6 +119,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpellLevelTemplate.cs" />
+    <EmbeddedResource Include="AuthentificationForm.resx">
+      <DependentUpon>AuthentificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ItemSpellHandler.resx">
       <DependentUpon>ItemSpellHandler.cs</DependentUpon>
     </EmbeddedResource>

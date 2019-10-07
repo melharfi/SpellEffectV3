@@ -125,6 +125,7 @@
             this.LSourceCode.TabIndex = 39;
             this.LSourceCode.TabStop = true;
             this.LSourceCode.Text = "Code Source Github";
+            this.LSourceCode.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LSourceCode_LinkClicked);
             // 
             // FrmAbout
             // 

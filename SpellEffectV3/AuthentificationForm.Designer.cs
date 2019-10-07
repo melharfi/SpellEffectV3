@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthentificationForm));
             this.label6 = new System.Windows.Forms.Label();
             this.connection = new System.Windows.Forms.Button();
             this.Ip = new System.Windows.Forms.TextBox();
@@ -53,7 +52,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.MediumBlue;
             this.label6.Location = new System.Drawing.Point(220, 232);
@@ -217,6 +216,7 @@
             // LAbout
             // 
             this.LAbout.AutoSize = true;
+            this.LAbout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LAbout.ForeColor = System.Drawing.Color.Maroon;
             this.LAbout.Location = new System.Drawing.Point(12, 232);
@@ -249,7 +249,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AuthentificationForm";

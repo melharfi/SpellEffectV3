@@ -27,7 +27,7 @@ namespace SpellEffectV3
         {
             InitializeComponent();
             LinkLabel.Link link = new LinkLabel.Link();
-            link.LinkData = "https://github.com/melharfi/SpellEffectV2";
+            link.LinkData = "https://github.com/melharfi/SpellEffectV3";
             LSourceCode.Links.Add(link);
         }
 
@@ -52,6 +52,11 @@ namespace SpellEffectV3
         private void CloseBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void LSourceCode_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(e.Link.LinkData as string);
         }
     }
 }
