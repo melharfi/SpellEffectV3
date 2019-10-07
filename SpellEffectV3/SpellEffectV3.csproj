@@ -36,30 +36,48 @@
     <ApplicationIcon>159.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\MySql.Data.dll</HintPath>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.17\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>ThirdParties\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
     </Reference>
     <Reference Include="Stump.Core">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.Core.dll</HintPath>
+      <HintPath>ThirdParties\Stump.Core.dll</HintPath>
     </Reference>
     <Reference Include="Stump.DofusProtocol.D2oClasses">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.DofusProtocol.D2oClasses.dll</HintPath>
+      <HintPath>ThirdParties\Stump.DofusProtocol.D2oClasses.dll</HintPath>
     </Reference>
     <Reference Include="Stump.DofusProtocol.Enums">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.DofusProtocol.Enums.dll</HintPath>
+      <HintPath>ThirdParties\Stump.DofusProtocol.Enums.dll</HintPath>
     </Reference>
-    <Reference Include="Stump.ORM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.ORM.dll</HintPath>
+    <Reference Include="Stump.ORM">
+      <HintPath>ThirdParties\Stump.ORM.dll</HintPath>
     </Reference>
     <Reference Include="Stump.Server.BaseServer">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.Server.BaseServer.dll</HintPath>
+      <HintPath>ThirdParties\Stump.Server.BaseServer.dll</HintPath>
     </Reference>
     <Reference Include="Stump.Server.WorldServer">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.Server.WorldServer.dll</HintPath>
+      <HintPath>ThirdParties\Stump.Server.WorldServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -113,6 +131,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="159.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ThirdParties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
