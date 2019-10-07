@@ -39,9 +39,6 @@
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="NLog">
-      <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\NLog.dll</HintPath>
-    </Reference>
     <Reference Include="Stump.Core">
       <HintPath>..\..\..\DofusItemSpellEditor\DofusItemSpellEditor\bin\Debug\Stump.Core.dll</HintPath>
     </Reference>
