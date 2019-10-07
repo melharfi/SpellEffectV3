@@ -27,7 +27,7 @@ namespace SpellEffectV3
         {
             InitializeComponent();
             LinkLabel.Link link = new LinkLabel.Link();
-            link.LinkData = "https://github.com/melharfi/DofusItemSpellEditor";
+            link.LinkData = "https://github.com/melharfi/SpellEffectV2";
             LSourceCode.Links.Add(link);
         }
 

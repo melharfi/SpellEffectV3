@@ -8,7 +8,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using DofusItemSpellEditor.Items;
 using MySql.Data.MySqlClient;
 using Stump.Server.WorldServer.Game.Effects.Instances;
 

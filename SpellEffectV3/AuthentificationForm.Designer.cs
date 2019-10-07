@@ -61,7 +61,6 @@
             this.label6.Size = new System.Drawing.Size(116, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "By : Th3-m0RpH3R";
-            this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
             // connection
             // 

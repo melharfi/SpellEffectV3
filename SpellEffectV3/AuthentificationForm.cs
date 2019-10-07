@@ -15,7 +15,6 @@ namespace SpellEffectV3
 {
     public partial class AuthentificationForm : Form
     {
-        MySqlConn mysqlCon;
         public static string userDB;
         public static string passwordDB;
         public static string adresseDB;
@@ -75,11 +74,6 @@ namespace SpellEffectV3
             {
                 connection_Click(null, null);
             }
-        }
-
-        private void Label6_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://github.com/melharfi/DofusItemSpellEditor");
         }
 
         private void CloseBtn_Click(object sender, EventArgs e)

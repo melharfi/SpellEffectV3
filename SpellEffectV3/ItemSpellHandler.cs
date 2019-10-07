@@ -638,7 +638,7 @@ namespace SpellEffectV3
             {
                 result = ed.Priority.ToString();
             }
-            catch(Exception ex)
+            catch
             {
                 
             }
