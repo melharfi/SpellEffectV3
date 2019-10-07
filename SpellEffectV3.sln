@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellEffectV3", "SpellEffectV3\SpellEffectV3.csproj", "{06227F52-736A-43D8-BB1C-D139D14A486A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06227F52-736A-43D8-BB1C-D139D14A486A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06227F52-736A-43D8-BB1C-D139D14A486A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06227F52-736A-43D8-BB1C-D139D14A486A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06227F52-736A-43D8-BB1C-D139D14A486A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCD564D5-F3DE-48B4-95AC-710C9CA2653B}
+	EndGlobalSection
+EndGlobal
