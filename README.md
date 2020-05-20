@@ -6,5 +6,6 @@
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://github.com/melharfi/SpellEffectV3)
 [![GitHub Release](https://img.shields.io/github/v/release/melharfi/SpellEffectV3)](https://github.com/melharfi/SpellEffectV3/releases) 
 [![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VN92ND2CDMX92)
+![GitHub Release Date](https://img.shields.io/github/release-date/melharfi/SpellEffectV3?color=Green)
 
 Editeur de Sort, Item, Bonus panoplie, Familier pour la bdd de l'émulateur Stump 2.40 ou plus de Dofus
